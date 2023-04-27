@@ -1,25 +1,31 @@
 import logo from './logo.svg';
+import {Component, StrictMode} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// props - объект со всеми данными, которые мы в него передадим.
+// function WhoAmI (props) {
+//   return (
+//     <div>
+//       <h1>My name is {props.name}, surname - {props.surname}</h1>
+//       <a href={props.link}>My profile</a>
+//     </div>
+//   )
+// }
 
-export default App;
+// function WhoAmI ({name, surname, link}) {
+//   return (
+//     <div>
+//       <h1>My name is {props.name}, surname - {props.surname}</h1>
+//       <a href={props.link}>My profile</a>
+//     </div>
+//   )
+// }
+// function App() {
+//   return (
+//     <div className="App">
+//       {/* <WhoAmI name="John" surname="Smith" link="facebook.com"/> */}
+//     </div>
+//   );
+// }
+
+// export default App;
